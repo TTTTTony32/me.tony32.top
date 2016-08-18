@@ -4,7 +4,14 @@ body, html {
 }
 
 body {
-    background-color: #fffced;
+    background-image: repeating-linear-gradient(
+	-45deg,
+	#fffce1,
+	#fffce1 45px,
+	#f48589 45px,
+	#f48589 90px
+    );
+    background-size: 200%;
     font-family: "Biaodian Pro Sans CNS", "Helvetica Neue", Helvetica, Arial, "Zhuyin Heiti", "Han Heiti", 'Microsoft YaHei', STXihei, 华文细黑, 微软雅黑, Heiti, 黑体, sans-serif;
     padding: 2em 0;
 }
