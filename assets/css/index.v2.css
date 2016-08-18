@@ -167,7 +167,7 @@ body {
 }
 
 .picture {
-    background: url('../images/headpic.png');
+    background: url('../images/headpic.svg');
     background-size: 100%;
     border-radius: 50%;
     bottom: 1em;
