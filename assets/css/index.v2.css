@@ -5,7 +5,7 @@ body, html {
 
 body {
     background-color: #fffced;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, 'Microsoft YaHei', STXihei, 华文细黑, 微软雅黑, SimSun, 宋体, Heiti, 黑体, sans-serif;
+    font-family: "Biaodian Pro Sans CNS", "Helvetica Neue", Helvetica, Arial, "Zhuyin Heiti", "Han Heiti", 'Microsoft YaHei', STXihei, 华文细黑, 微软雅黑, Heiti, 黑体, sans-serif;
     padding: 2em 0;
 }
 
@@ -64,7 +64,12 @@ body {
 .footer {
     color: #EAEAEA;
     font-size: 0.8em;
-    line-height: 3em;
+}
+
+@media (min-width: 768px){
+	.footer {
+		line-height: 3em;
+	}
 }
 
 .footer span a {
@@ -177,3 +182,4 @@ body {
     color: #222;
     font-weight: 300;
 }
+
