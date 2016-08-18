@@ -4,7 +4,7 @@ body, html {
 }
 
 body {
-    background: url('../images/darknoise.png');
+    background-color: #fffced;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, 'Microsoft YaHei', STXihei, 华文细黑, 微软雅黑, SimSun, 宋体, Heiti, 黑体, sans-serif;
     padding: 2em 0;
 }
@@ -26,11 +26,11 @@ body {
 }
 
 .account-dark a {
-    color: #264566;
+    color: #df5155;
 }
 
 .account-dark i {
-    color: #480808;
+    color: #df5155;
 }
 
 .account-dark span {
@@ -45,12 +45,12 @@ body {
     color: #EAEAEA;
 }
 
-.block-blue {
-    background: #385068;
+.block-red {
+    background: #df5155;
 }
 
-.block-grey {
-    background: #333;
+.block-black {
+    background: #222;
 }
 
 .block-shadow {
@@ -58,7 +58,7 @@ body {
 }
 
 .block-white {
-    background: #FAFAFA;
+    background: #f7f3d8;
 }
 
 .footer {
@@ -68,11 +68,12 @@ body {
 }
 
 .footer span a {
-    color: #759BC2;
+    color: #df5155;
     text-decoration: none;
 }
 
 .link-showcase {
+    display: none;
     border-bottom: 2px dashed #385068;
     padding: 0.5em 0.5em 0.6em 0.5em;
 }
@@ -125,7 +126,7 @@ body {
 }
 
 .header .title {
-    color: #DDD;
+    color: #e0dcdb;
     font-size: 1.5em;
     font-weight: 300;
 }
@@ -156,7 +157,6 @@ body {
 .picture {
     background: url('../images/headpic.png');
     background-size: 100%;
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     bottom: 1em;
     display: block;
