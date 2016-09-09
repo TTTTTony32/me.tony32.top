@@ -190,3 +190,8 @@ body {
     font-weight: 300;
 }
 
+/* icons fix */
+
+.fa-twitter-adb:before{content:"\f099";}
+.fa-instagram-adb:before{content:"\f16d";}
+
