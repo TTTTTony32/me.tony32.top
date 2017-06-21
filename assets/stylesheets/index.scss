@@ -28,6 +28,20 @@ html {
     text-decoration: none;
 }
 
+.acknowledgement {
+    background: #2f8a82;
+    color: #eee;
+    font-size: 0.9em;
+    font-weight: normal;
+    display: block;
+    padding: 0.75em 1em;
+    text-decoration: none;
+}
+
+.acknowledgement .link {
+    color: #9dddc1;
+}
+
 .main-container {
     margin: 0 auto;
     max-width: 64em;
