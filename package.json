@@ -16,10 +16,12 @@
     "url": "https://github.com/magicnat/who.nat.moe/issues"
   },
   "homepage": "https://github.com/magicnat/who.nat.moe/",
-  "dependencies": {
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.4.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "unsemantic": "^1.2.3"
   }
 }
