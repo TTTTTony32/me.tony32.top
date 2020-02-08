@@ -19,7 +19,7 @@
 }
 
 .self-desc p {
-  border-left: 3px solid rgba(56, 102, 104, 0.8); 
+  border-left: 3px solid #2c82c9; 
   line-height: 1.8em;
   padding-left: 1em;
 }
@@ -38,7 +38,7 @@
 
 .identity .link {
     bottom: 0.5em;
-    color: #386668;
+    color: #34495e;
     display: inline-block;
     position: absolute;
     right: 0.45em;
@@ -46,7 +46,7 @@
 }
 
 .identity .fa {
-    color: rgba(56, 102, 104, 0.8); 
+    color: #2c82c9; 
     font-size: 1.6em;
     text-align: center;
     width: 1.5em;
@@ -78,7 +78,7 @@
 }
 
 .identity-category .title .fa {
-    color: rgba(56, 102, 104, 0.8); 
+    color: #2c82c9; 
     margin: 0 0.2em;
     transform: rotateZ(-23deg);
     transition-duration: .3s;
