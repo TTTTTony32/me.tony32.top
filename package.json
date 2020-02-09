@@ -23,5 +23,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "unsemantic": "^1.2.3"
+  },
+  "dependencies": {
+    "aplayer": "^1.10.1"
   }
 }

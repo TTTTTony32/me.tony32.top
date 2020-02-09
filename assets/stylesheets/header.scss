@@ -59,7 +59,8 @@
     border-radius: 50%;
     box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.15);
     box-sizing: content-box;
-    display: block;
+    display: table-cell;
+    vertical-align: middle;
     padding: 3%;
     width: 94%;
 }
