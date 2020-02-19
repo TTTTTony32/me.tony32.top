@@ -6,7 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
         <meta name="description" content="这里是Tony呦">
         <meta name="keywords" content="Tony">
-        <title>About Tony | 关于Tony</title>
+        <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/TTTTTony32/live2d-widget@latest/autoload.js"></script>
+        <title>About Tony32 | 关于Tony32</title>
         <script>
             (function() {
                 var hidden = "hidden";
@@ -42,7 +45,7 @@
         <div class="main-container">
             <div class="section header grid-container">
                 <div class="picture-container grid-35">
-                    <img class="picture" src="assets/images/Tony32.png">
+                    <img class="picture" src="assets/images/Tony32.webp">
                 </div>
                 <div class="grid-65">
                     <h1 class="greeting en">
@@ -230,10 +233,45 @@
             </div>
             <div class="section">
                 <a class="acknowledgement" href="//github.com/amphineko/amphineko" target="_blank"><i aria-hidden="true" class="fa fa-code-fork"></i> This is a fork of <span class="link">//futa.moe/amphineko</span>, a biopage by Naoki Rinmous.</a>
+                <a class="acknowledgement" href="//github.com/stevenjoezhang/live2d-widget" target="_blank"><i aria-hidden="true" class="fa fa-code-fork"></i> Live2D Widget fork from <span class="link">//stevenjoezhang/live2d-widget</span>, a Live2D widget for web platform.</a>
                 <div class="copyright">
                     Copyright &copy; 2019-2020 Tony32. Illustrations have their own licenses.
                 </div>
             </div>
         </div>
+        <div id="aplayer"></div>	
+        <script>	
+            const ap = new APlayer({	
+                container: document.getElementById('aplayer'),	
+                autoplay: true,	
+                fixed: true,	
+                loop: 'all',	
+                order: 'list',	
+                volume: 0.3,	
+                listFolded: true,	
+                listMaxHeight: '120px',	
+                lrcType: 0,	
+                audio: [	
+                    {	
+                        name: "For River - Piano (Johnny's Version).mp3",	
+                        artist: 'Kan R. Gao',	
+                        url: "https://api.emtips.net/ForRiver.mp3",	
+                        cover: 'https://p2.music.126.net/0AYWra9rCzgeprGp6OUyUw==/868614185993997.jpg',	
+                    },	
+                    {	
+                        name: 'You',	
+                        artist: '千坂/N2V',	
+                        url: "https://api.emtips.net/You.mp3",	
+                        cover: 'http://p1.music.126.net/MVevKfyCw8InBCEmWX1NoQ==/109951164502635067.jpg',	
+                    },	
+                    {	
+                        name: '「愛言葉Ⅱ」',	
+                        artist: 'uzakin',	
+                        url: 'https://api.emtips.net/u.mp3',	
+                        cover: 'http://p1.music.126.net/8LUg6zsNnvptJkBUB7720Q==/18172728184305993.jpg',	
+                    }	
+                ]	
+            });	
+            </script>
     </body>
 </html>
